@@ -33,14 +33,14 @@ export const Profile = () => {
       <CardContent className="pt-6">
         <div className="flex flex-col items-start gap-2 ">
           <div className="flex flex-row md:flex-col items-center md:items-start w-full gap-4">
-            <Image
+            {/* <Image
               width={150}
               height={150}
               quality={100}
-              src="/avatar.svg"
+              src="/avatar.webp"
               alt="Profile Picture"
               className="rounded-full size-12 md:w-full h-auto object-cover border-2"
-            />
+            /> */}
             <div className="flex flex-col items-start justify-center">
               <h1 className="font-bold md:mt-4 text-xl md:text-2xl">
                 Saksham Munjal
@@ -51,8 +51,7 @@ export const Profile = () => {
             </div>
           </div>
           <p className="mt-2 text-start text-sm text-muted-foreground">
-            I am a Software Engineer dedicated to crafting intuitive and
-            impactful digital solutions for everyday challenges.
+          Building efficient and scalable web solutions with modern technologies.
           </p>
           <Button className="mt-4 w-full" asChild>
             {/* TODO: Add resume link */}

@@ -9,7 +9,7 @@ export const projects = [
   {
     title: "Regal Shoes",
     description:
-      "An E-Commerce App for a large variety of Shoes with a lot of filters.",
+      "Regal Shoes: Built with React, Redux, and Node.js, implementing advanced filters for a seamless shopping experience.",
     tech: "React",
     link: "https://regal-stores.netlify.app/",
   },
