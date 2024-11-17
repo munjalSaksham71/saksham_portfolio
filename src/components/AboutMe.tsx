@@ -2,7 +2,7 @@ import { Card, CardTitle, CardHeader, CardContent } from "@/components/ui/card";
 
 export const AboutMe = () => {
   return (
-    <Card className="mb-6">
+    <Card className="mb-4">
       <CardHeader>
         <CardTitle>About Me</CardTitle>
       </CardHeader>

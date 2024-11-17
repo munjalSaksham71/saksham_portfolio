@@ -6,6 +6,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { RiPagesLine } from "react-icons/ri";
+import { MdDownload } from "react-icons/md";
 
 const socials = [
   {
@@ -61,7 +62,7 @@ export const Profile = () => {
               href="/saksham_resume.pdf"
               className="font-semibold"
             >
-              Resume
+              <MdDownload className="size-4" /> Download Resume
             </Link>
           </Button>
           <div className="mt-4 flex flex-col space-y-2 border-t border-border pt-4 w-full">
